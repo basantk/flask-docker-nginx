@@ -6,6 +6,10 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN pip install Werkzeug==1.*
+
+RUN pip install --upgrade flask werkzeug
+
 COPY . .
 
 EXPOSE 5000
