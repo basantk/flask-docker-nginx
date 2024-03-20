@@ -1,1 +1,4 @@
 Flask
+Werkzeug==1.*
+flask 
+werkzeug
